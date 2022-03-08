@@ -1,0 +1,711 @@
+body,ul,li{
+  margin:0;
+}
+li{
+  list-style:none;
+}
+header{
+  height:60px;
+  width:100%;
+}
+.header-logo img{
+  width:10%;
+  height:60px;
+  float:left;
+  padding:0;
+  color:#fff;
+}
+.header-list li{
+  float:right;
+  padding:20px 20px 20px 20px;
+  font-size:13px;
+  color:gray;
+}
+footer{
+  background-color:#CD853F;
+  color:#fff;
+  width:calc(100% - 100px);
+  height:40px;
+  padding:20px 50px 20px 50px;
+}
+.footer-logo{
+  float:left;
+  padding:10px 20px 10px 20px;
+}
+.footer-list li{
+  float:right;
+  padding:0 30px 0 30px;
+  font-size:13px;
+}
+.main{
+  position:relative;
+  width:100%;
+  overflow-x:hidden;
+  margin:0;
+}
+.main-image{
+  position:relative;
+  width:100%;
+  height:70vh;
+}
+.main-image > img{
+  height:70vh;
+}
+.main-image_2{
+  position:absolute;  
+  top:30px;
+  right:20px;
+}
+.main-titlelogo{
+  position:absolute;
+  bottom:-150px;
+  left:50%;
+  z-index:3;
+  transform:translatex(-50%);
+}
+.main-titlelogo > img{
+  width:300px;
+}
+.red-line{
+  position:absolute;
+  bottom:-50px;
+  width:100%;
+  height:50px;
+  background:url(https://school2.oohara.jp/hanae/red_line.jpg);
+  z-index:2;
+}
+.main-in{
+  position:relative;
+  background:#95d7f1;
+  padding-top:100px;
+  z-index:1;
+  height:700px;
+}
+.cloud{
+  position:relative;
+}
+.cloud > div{
+  background:url(https://school2.oohara.jp/hanae/cloud.png);
+  background-size:100%;
+  background-repeat:no-repeat;
+  width:270%;
+  position:absolute;
+  height:400px;
+  z-index:2;
+  top:100px;
+  left:-105%;
+}
+.main-infomation{
+  position:relative;
+  width:70%;
+  height:140px;
+  text-align:center;
+  padding:25px 30px 25px 30px;
+  margin:80px 150px 35px 150px;
+  border-radius:10px;
+  background:rgba(255,255,255,0.5);
+  z-index:2;
+}
+.infomation_image{
+  position:absolute;
+  width:100px;
+  left:70px;
+}
+.infomation_image img{
+  width:100%;
+}
+.infomation_text{
+  position:absolute;
+  text-align:left;
+  width:70%;
+  right:50px;
+  bottom:33px;
+}
+.infomation_text li{
+  width:100%;
+  font-size:14px;
+}
+.infomation_text li:nth-child(1){
+  color:red;
+}
+.infomation_text li:nth-child(4){
+  color:red;
+}
+.main-SNS{
+  position:relative;
+  width:800px;
+  height:80px;
+  left:50%;
+  transform:translatex(-50%);
+  z-index:8;
+  top:-360px;
+}
+.box-SNS{
+  position:absolute;
+  width:100%;
+  margin:0;
+}
+.box-SNS_image{
+  position:absolute;
+  width:800px;
+  top:0px;
+  left:0px;
+}
+.box-SNS_t{
+  position:absolute;
+  width:320px;
+  top:42px;
+  left:60px;
+}
+.box-SNS_i{
+  position:absolute;
+  width:320px;
+  right:60px;
+  top:25px;
+}
+.ballon{
+  position:absolute;
+  left:-120px;
+  top:-30px;
+}
+.osusume{
+  background:url(https://school2.oohara.jp/hanae/bg_grass.png);
+  background-size:100%;
+  margin-top:-160px;
+  padding:30px 50px 30px 50px;
+  z-index:6;
+  position:relative;
+}
+.osusume-ribon{
+  position:absolute;
+  height:150px;
+  text-align:center;
+  left:125px;
+  top:-50px;
+  z-index:6;
+}
+.osusume-ribon img{
+  width:90%;
+}
+.osusume-tree{
+  position:absolute;
+  overflow:hidden;
+  right:-30px;
+  top:-110px;
+}
+.osusume-tree img{
+  width:90%;
+}
+.osusume-apple{
+  position:absolute;
+  overflow:hidden;
+  left:-20px;
+  top:-5px;
+}
+.osusume-apple img{
+  width:80%;
+}
+.mujin{
+  position:relative;
+  height:930px;
+ 
+}
+.mujin-waku{
+  opacity:0;
+}
+@keyframes mujin-a{
+  0%{
+    position:relative;
+    bottom:-250px;
+    opacity:0;
+  }
+  100%{
+    position:relative;
+    bottom:-190px;
+    opacity:1;
+  }
+}
+.mujin-anime{
+  animation-name:mujin-a;
+  animation-duration:2s;
+  opacity:1;
+  position:relative;
+  bottom:-190px;
+}
+.mujin-back{
+  position:absolute;
+  width:100%;
+  height:750px;
+  text-align:center;
+  top:70px;
+  left:0;
+}
+.mujin-back img{
+  width:90%;
+}
+.mujin-tanuki{
+  position:absolute;
+  width:200px;
+  left:140px;
+  bottom:-30px;
+}
+.mujin-tanuki img{
+  width:100%;
+}
+.mujin-title{
+  position:absolute;
+  width:300px;
+  left:360px;
+  bottom:130px;
+}
+.mujin-title img{
+  width:100%;
+}
+.mujin-kuwasiku{
+  position:absolute;
+  bottom:55px;
+  left:340px;
+}
+.mujin-kuwasiku img{
+  width:85%;
+}
+.mujin-text{
+  position:absolute;
+  bottom:18px;
+  left:379px;
+}
+.mujin-text p{
+  font-size:14px;
+  font-weight:bold;
+  color:#8B4513;
+}
+.mujin-text span{
+  color:#FFFFFF;
+  background-color:red;
+  font-weight:bold;
+}
+.mujin-picture{
+  position:absolute;
+  width:300px;
+  right:130px;
+  bottom:1px;
+}
+.mujin-picture img{
+  width:100%; 
+}
+.camp{
+  position:relative;
+  height:570px;
+}
+.camp-back{
+  position:absolute;
+  width:100%;
+  text-align:right;
+}
+.camp-back img{
+  width:75%;
+}
+.camp-waku{
+  opacity:0;
+}
+@keyframes camp-a{
+  0%{
+    position:relative;
+    opacity:0;
+    bottom:-50px;
+  }
+  100%{
+    position:relative;
+    opacity:1;
+    bottom:0;
+  }
+}
+.camp-anime{
+  animation-name:camp-a;
+  animation-duration:2s;
+  opacity:1;
+  position:relative;
+  bottom:0;
+}
+.camp-picture{
+  position:absolute;
+  width:100%; 
+}
+.camp-picture img{
+  width:55%;
+}
+.camp-nigiyaka{
+  position:absolute;
+  width:50%;
+  right:140px;
+  top:38px;
+  text-align:right;
+}
+.camp-nigiyaka img{
+  width:59%;
+}
+.camp-kuwashiku{
+  position:absolute;
+  width:50%;
+  right:120px;
+  top:280px;
+  text-align:right; 
+}
+.camp-kuwashiku img{
+  width:63%;
+}
+.camp-text{
+  position:absolute;
+  width:60%;
+  top:350px;
+  right:110px;
+  text-align:right;
+}
+.camp-text p{
+  font-size:14px;
+  font-weight:bold;
+  color:#8B4513;
+}
+.camp-text span{
+  color:#FFFFFF;
+  background-color:red;
+}
+.camp-apple{
+  position:absolute;
+  right:-90px;
+  top:-180px;;
+}
+.camp-apple img{
+  width:85%;
+}
+.camp-tree1{
+  position:absolute;
+  overflow:hidden;
+  top:-70px;
+  left:-60px;
+  
+}
+.camp-tree1 img{
+  width:80%;
+}
+.camp-tree2{
+  position:absolute;
+  overflow:hidden;
+  right:-90px;
+  bottom:30px;
+}
+.camp-tree2 img{
+  width:80%;
+}
+.muraokosi{
+  position:relative;
+  height:570px;
+}
+.muraokosi-back{
+  position:absolute;
+  width:100%;
+  text-align:left;
+}
+.muraokosi-back img{
+  width:75%;
+}
+.muraokosi-waku{
+  opacity:0;
+}
+@keyframes muraokosi-a{
+  0%{
+    position:relative;
+    opacity:0;
+  }
+  100%{
+    position:relative;
+    opacity:1;
+  }
+}
+.muraokosi-anime{
+  animation-name:camp-a;
+  animation-duration:2s;
+  opacity:1;
+  position:relative;
+}
+.muraokosi-picture{
+  position:absolute;
+  right:0;
+  width:60%; 
+  text-align:right;
+}
+.muraokosi-picture img{
+  width:95%
+}
+.muraokosi-soncho{
+  position:absolute;
+  width:50%;
+  left:130px;
+  top:70px;
+  text-align:left;
+}
+.muraokosi-soncho img{
+  width:59%;
+}
+.muraokosi-kuwashiku{
+  position:absolute;
+  width:50%;
+  left:135px;
+  top:280px;
+  text-align:left; 
+}
+.muraokosi-kuwashiku img{
+  width:58%;
+}
+.muraokosi-text{
+  position:absolute;
+  width:60%;
+  top:350px;
+  left:160px;
+  text-align:left;
+}
+.muraokosi-text p{
+  font-size:14px;
+  font-weight:bold;
+  color:#8B4513;
+}
+.muraokosi-text span{
+  color:#FFFFFF;
+  background-color:red;
+}
+.muraokosi-apple{
+  position:absolute;
+  overflow:hidden;
+  left:-70px; 
+}
+.muraokosi-apple img{
+  width:80%;
+}
+.main-last{
+  position:relative;
+  height:150px;
+}
+.main-last-image{
+  position:absolute;
+  text-align:center;
+  width:100%;
+}
+.main-last img{
+  width:50%;
+}
+.last-apple{
+  position:absolute;
+  right:30px;
+  bottom:5px;
+}
+.last-apple img{
+  width:90%;
+}
+.sagasu{
+  position:absolute;
+  top:60px;
+  width:100%;
+  height:200px;
+  background:white;
+  display:none;
+  z-index:10;
+}
+.nyuryoku{
+  position:absolute;
+  top:50px;
+  left:50%;
+  transform:translatex(-50%);
+}
+.nyuryoku input{
+  width:820px;
+  height:70px;
+}
+.koumoku{
+  position:absolute;
+  overflow:hidden; 
+  top:150px;
+  left:180px;
+}
+.koumoku li{
+  display:inline-block;
+  text-align:center;
+  background-color:#D3D3D3;
+  color:#696969;
+  font-size:12px;
+  font-weight:bold;
+}
+.log{
+  position:absolute;
+  top:60px;
+  width:100%;
+  height:250px;
+  z-index:10;
+  display:none;
+}
+.login{
+  position:relative;
+  background-color:red;
+  height:250px;
+}
+.login-rogo{
+  position:absolute;
+  width:250px;
+  top:10px;
+  left:130px;
+  text-align:center;
+}
+.login-rogo p{
+  font-size:30px;
+  font-weight:bold;
+  color:#fff; 
+}
+.login-message{
+  position:absolute;
+  right:60px;
+  top:35px;
+}
+.login-message p{
+  color:#fff;
+  font-size:14px;
+  font-weight:bold;
+}
+.store{
+  position:relative;
+  background-color:#fff;
+  width:300px;
+  height:140px;
+  left:70px;
+  top:100px;
+}
+.store1{
+  position:absolute;
+  width:130px;
+  left:70px;  
+  top:15px;
+}
+.store1 p{
+  font-size:11px;
+  font-weight:bold;
+  color:red;
+}
+.store2{
+  position:absolute;
+  left:70px;
+  top:30px;
+}
+.store2 p{
+  font-weight:bold;
+  color:red;
+}
+.store3{
+  position:absolute;
+  bottom:0;
+  left:25px;  
+}
+.store3 p{
+  font-size:12.5px;
+  color:#A9A9A9;
+}
+.point{
+  position:relative;
+  background-color:#fff;
+  width:300px;
+  height:140px;
+  left:375px;
+  top:-40px;
+}
+.point1{
+  position:absolute;
+  width:130px;
+  left:70px;  
+  top:15px;
+}
+.point1 p{
+  font-size:11px;
+  font-weight:bold;
+  color:red;
+}
+.point2{
+  position:absolute;
+  left:70px;
+  top:30px;
+}
+.point2 p{
+  font-weight:bold;
+  color:red;
+}
+.point3{
+  position:absolute;
+  bottom:0;
+  left:25px;  
+}
+.point3 p{
+  font-size:12.5px;
+  color:#A9A9A9;
+}
+
+.apli{
+  position:relative;
+  background-color:#fff;
+  width:300px;
+  height:140px;
+  left:680px;
+  top:-180px;
+}
+.apli1{
+  position:absolute;
+  width:130px;
+  left:70px;  
+  top:15px;
+}
+.apli1 p{
+  font-size:11px;
+  font-weight:bold;
+  color:red;
+}
+.apli2{
+  position:absolute;
+  left:70px;
+  top:30px;
+}
+.apli2 p{
+  font-weight:bold;
+  color:red;
+}
+.apli3{
+  position:absolute;
+  bottom:0;
+  left:25px;  
+}
+.apli3 p{
+  font-size:12.5px;
+  color:#A9A9A9;
+}
+.login-in{
+  position:absolute;
+  width:180px;
+  height:100px;
+  background-color:#8b0000;
+  top:100px;
+  right:55px;
+  text-align:center;
+}
+.login-in p{
+  font-size:20px;
+  font-weight:bold;
+  color:#fff;
+}
+.acount{
+  position:absolute;
+  bottom:0;
+  right:70px;
+  text-align:center;
+}
+.acount p{
+  font-size:14px;
+  font-weight:bold;
+  color:#fff;
+}
+.active{
+  display:block;
+}
